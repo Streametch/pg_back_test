@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/zero/public_html/  # Add /<app_folder> if required
+    - /bin/cp pg_back $DEPLOYPATH                 #Copy specific file to destination from root
